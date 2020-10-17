@@ -1,0 +1,120 @@
+.icon-flickr_logo{
+    height: 50px;
+    width: 70px;
+    fill: #fff; /*svg填色*/
+}
+
+.nav1{
+    background-color: #202023;
+    height: 50px;
+}
+
+.nav1 .navbar-nav .nav-link{
+    color: #fff;
+}
+
+.fa-search{
+    position: absolute;
+    font-size: 16px;
+    color: #535354;
+    margin-left: 10px;
+}
+
+.fa-could-upload{
+    color: #fff;
+}
+
+.login-btn{
+    color: #fff;
+}
+
+.nav1 form input{
+    padding-left: 30px;
+    background-color: #d0d0d1;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
+.mx-3{
+    color: #fff;
+}
+
+.nav1 .navbar-nav .nav-item-1:hover .dropdown-menu{
+    display: block;
+}
+
+.nav1 .navbar-nav .nav-item-1 .dropdown-menu::after{
+    content:"";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 15px 20px 15px;
+    border-color: transparent transparent #fff transparent;
+    position: absolute;
+    top: -10px;
+    left: 2px;
+}
+
+header{
+    height: 250px;
+    background-image: url(https://images.pexels.com/photos/2569471/pexels-photo-2569471.jpeg?cs=srgb&dl=pexels-2569471.jpg&fm=jpg);
+    background-size: cover;
+    background-position: center -400px;
+}
+
+aside{
+    border-bottom: 1px solid #dcdcdc;
+    height: 50px;
+    padding-top: 5px;
+}
+
+aside .nav-link{
+    color: #000;
+}
+
+aside .active{
+    border-bottom: 4px solid #0090dc;
+}
+
+section .container{
+    padding-top: 20px;
+}
+
+section .box1{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    outline:1px solid #000;
+}
+
+.box1::before{
+    content: "";
+    position: absolute;
+    border: 0.5px solid #afb7bd;
+    width: 98%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: -2px;
+  }
+  .box1::after{
+      content: "";
+      position: absolute;
+      border: 0.5px solid #afb7bd;
+      width: 95%;
+      left: 0;
+      right: 0;
+      margin: auto;
+      top: -4px;
+  }
+
+footer{
+    background-color: #202023;
+}
+footer .nav-link{
+    color: #fff;
+    font-size: 14px;
+}
+footer .navtop{
+    border-bottom: 1px solid #dcdcdc;
+}
